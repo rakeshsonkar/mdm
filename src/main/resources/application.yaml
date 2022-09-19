@@ -1,0 +1,9 @@
+javax:
+    sql:
+        DataSource:
+            sanctionDataSource:
+                dataSourceClassName: oracle.jdbc.pool.OracleDataSource
+                dataSource:
+                    url: jdbc:oracle:thin:@172.22.32.45:1521/sanction
+                    user: wf
+                    password: welcome1
